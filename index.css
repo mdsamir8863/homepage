@@ -1,25 +1,25 @@
-/* * {
+* {
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
-} */
-* {box-sizing:border-box}
+}
 
-/* Slideshow container */
+
+/* Slideshow container
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 .mySlides img{
   aspect-ratio: 16/10;
 }
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -35,18 +35,18 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -91,9 +91,28 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+} */
+.LOGO{
+  height: 6.6rem;
+  width: 100%;
+}
+.logo-img{
+  height: 10rem;
+  width: 100%;
+   
+  
 }
 
-.contain-btn ul{
+.contain-img-btn{
+padding: 1rem;
+overflow: hidden;
+}
+
+.contain-img-btn img{
+  width: 100%;
+}
+
+/* .contain-btn ul{
    padding-left: 12rem;
     list-style: none;
     display: inline;
@@ -104,7 +123,7 @@
     color: black;
     text-decoration: none;
     border-radius: 1rem;
-}
+} */
 .contain-btn ul li{
     /* padding: 0rem 6rem 0 0; */
    display: inline-block;
@@ -113,11 +132,60 @@
 
 .images{
     /* display: inline-block; */
+    border-radius: 1.5rem;
+    padding: 1rem;
+    box-shadow:0 0 10px #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 
 .images img{
     /* display: inline-block; */
     /* height: rem; */
-    width: 20rem;
+    margin: auto;
+    width: 70%;
+}
+.images button{
+  padding: 0.1rem;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 1rem;
+}
+  
+  /* background: linear-gradient(90deg, rgba(255,0,0,.8), rgba(184, 111, 111, 0) 70.71%),
+            linear-gradient(90deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(90deg, rgba(255, 208, 0, 0.8), rgba(0,0,255,0) 70.71%); */
+
+
+p {
+  padding: 1rem;
+  font-weight: 600;
+  word-spacing: .1rem;
+  text-align: center;
+  border-radius: 1rem;
+  color: #000000;
+  font-size: 15px;
+  background: -webkit-linear-gradient(rgb(194, 206, 200), rgba(0, 0, 0, 0));
+  /* -webkit-text-fill-color: transparent; */
+}
+h2{
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgba(86, 75, 238, 0.274);
+  padding: .6rem;
+  /* background: linear-gradient(217deg, rgba(156, 100, 100, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(90deg, rgba(66, 100, 66, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(90deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+}
+
+
+
+span{
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
 }
